@@ -1,20 +1,26 @@
-### 🎬 Movie Recommendation Systems – Comparative Analysis
-This project explores and compares multiple movie recommender system architectures using the MovieLens 1M dataset.
-### 🧠 Project Overview
-The aim of this assignment was to design, implement, and evaluate different approaches to movie recommendation — moving from classical collaborative filtering to modern machine learning–based models.
-Three key recommendation strategies were examined:
-- User-Based Collaborative Filtering – predicts preferences based on similar users.
-- Item-Based + Content Hybrid Filtering – enhances similarity calculations with genre information.
-- Modern Recommender (Matrix Factorisation / FunkSVD) – a machine-learning approach that learns hidden user and item features for personalised recommendations. 
+### 🎬 Movie Recommendation Systems – Machine Learning Project
+This is a machine learning project focused on building and comparing multiple movie recommender systems using the MovieLens 1M dataset.
+Developed as part of the Practical Data Science course at RMIT University, it demonstrates the application of supervised and unsupervised learning principles in real-world recommendation tasks.
 
-Each system was evaluated using standard performance metrics such as RMSE, Average Precision (AP), and NDCG, allowing for a clear comparison of their accuracy and ranking quality.
+### 🧠 Project Overview
+The goal of this project was to design, implement, and evaluate several recommendation algorithms and analyse how model complexity affects performance and personalisation.
+Three approaches were explored:
+- User-Based Collaborative Filtering – traditional similarity-based method using nearest neighbours.
+- Item-Based + Content Hybrid Filtering – integrates collaborative filtering with content features (genres).
+- Modern Recommender (Matrix Factorisation / FunkSVD) – a machine-learning model that learns latent user and item representations for personalised predictions.
+  
+Each system was evaluated with quantitative metrics (RMSE, Average Precision, NDCG) to compare their predictive accuracy and ranking quality.
+
 ### 📊 What This Project Demonstrates
-Practical application of machine learning in recommender systems.
-Comparative analysis showing how hybrid and latent-factor models outperform traditional methods.
-Data preprocessing, model evaluation, and result visualisation using Python (Jupyter Notebook).
+- Application of machine learning techniques in recommender-system design.
+- Comparative analysis of baseline, hybrid, and latent-factor models.
+- End-to-end pipeline: data preprocessing → model training → evaluation → visualisation.
+- Insights on how model-based learning (FunkSVD) outperforms similarity-based approaches in sparse data scenarios.
+
 ### 🧩 Tech Stack
-Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-Jupyter Notebook for reproducible experimentation
-Dataset: MovieLens 1M (GroupLens Research)
+- Python, NumPy, Pandas, Scikit-Learn, Matplotlib, Seaborn
+- Jupyter Notebook for development and reproducibility
+- Dataset: MovieLens 1M (GroupLens Research)
+
 ### 🏁 Outcome
-This project highlights how incorporating content features and matrix factorisation techniques significantly improves recommendation accuracy and personalisation — reflecting real-world approaches used by platforms like Netflix and Spotify.
+The project highlights how evolving from simple neighbourhood methods to machine-learning-based matrix factorisation significantly improves recommendation accuracy and personalisation — similar to the techniques powering platforms like Netflix, Spotify, and YouTube.
